@@ -15,7 +15,7 @@ class Student extends Education{
     }
 
     getCGPC(markArry:number[]){
-       return markArry.reduce((currres,currvalue){
+       return markArry.reduce((currres,currvalue) =>{
             return currres+currvalue;
         },0);
     }
@@ -55,6 +55,7 @@ class Student extends Education{
     nameofStudent.addStuDentsArray('Vikash');
     nameofStudent.addStuDentsArray('Jojo');
     nameofStudent.printStudentInfo();
+    nameofStudent.getCGPC;
 
     class CollegeStudent extends Student {
 
