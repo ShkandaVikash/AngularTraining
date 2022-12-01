@@ -1,4 +1,4 @@
-var addResult = function () {
+let addResult = function () {
     var argum = [];
     for (var _i = 0; _i < arguments.length; _i++) {
         argum[_i] = arguments[_i];
