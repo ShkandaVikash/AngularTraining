@@ -1,0 +1,10 @@
+.user-label {
+    float:left;
+    clear:left;
+    
+  }
+
+  .user-value{
+    float:right;
+    margin-left: 20px;
+  }

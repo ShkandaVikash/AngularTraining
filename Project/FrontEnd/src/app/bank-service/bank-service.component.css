@@ -1,0 +1,13 @@
+input.ng-invalid.ng-touched {
+    border: 1px solid red;
+}
+
+p {
+    color: red;
+    background-color: aqua;
+}
+
+#success {
+    color: yellow;
+    background-color: slategrey;
+}

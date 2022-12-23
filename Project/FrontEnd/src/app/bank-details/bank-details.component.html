@@ -1,0 +1,49 @@
+<h1 class="text-center">Customer Details</h1>
+<div class="container">
+  <td>
+    <div class="row">
+      <div class="col-xs-12">
+          <div>
+            <div class = "user-label">User Name:- </div>
+            <div class ="user-value">{{username}}</div>
+          </div>
+          <div>
+            <div >
+              <div class = "user-label">Flat No.</div>
+              <div class ="user-value">{{flatNo}}</div>
+              </div>
+              <div>
+                <div class = "user-label">Street Name</div>
+                <div class ="user-value">{{streetName}}</div>
+              </div>
+              <div >
+                <div class = "user-label">District</div>
+                <div class ="user-value">{{district}}</div>
+              </div>
+              <div >
+                <div class = "user-label">State</div>
+                <div class ="user-value">{{state}}</div>
+              </div>
+              <div >
+                <div class = "user-label">Pin Code</div>
+                <div class ="user-value">{{pinCode}}</div>
+              </div>
+          </div>
+          <div >
+            <div class = "user-label">Account Type</div>
+            <div class ="user-value">{{accountType}}</div>
+          </div>
+          <br/>
+      </div>
+    </div>
+    <div class="col-xs-12">
+      <button class="btn btn-info" (click)="onCreateCustomer()">
+          Create Customer
+      </button>
+     
+      <button class="btn btn-primary" (click)="onClickOfHome()" style="float: right">
+          Home
+      </button>
+  </div>
+</div>
+  
